@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mason Hoey</title>
+
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <!-- Favicon links... -->
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap%27');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        a:hover span {
+            transition: 0.3s;
+        }
+
+        #instagram:hover span {
+            color: #000000;
+        }
+
+        #threads:hover span {
+            color: #98b7ff;
+        }
+
+        #snapchat:hover span {
+            color: #ff4040;
+        }
+
+        #twitter:hover span {
+            color: #0005eb;
+        }
+
+        #discord:hover span {
+            color: #6500bd;
+        }
+
+        #snapchat span {
+            color: #000000;
+        }
+
+        body {
+            position: relative;
+            color: #ffffff;
+            background-image: url("assets/linhas.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        #wrapper {
+            position: relative;
+            min-height: 100vh;
+            max-width: 720px;
+            margin: auto;
+            text-align: center;
+            font-weight: normal;
+            padding-top: 150px; /* Adjust as needed */
+        }
+
+        #wrapper .header {
+            padding: .5rem 0;
+            color: #000000; /* Set header text color to white */
+			font-size: 1.5em;
+			font-weight: bold;
+        }
+
+        #wrapper .header .modelev-logo {
+            width: 165px;
+            height: 165px;
+            margin-bottom: 25px;
+            border-radius: 50%;
+        }
+
+        #wrapper ul {
+            margin: 1.5rem 0;
+        }
+
+        #wrapper li {
+            margin: .9rem;
+			user-select: none;
+			transition: 2s;
+        }
+
+        #wrapper li a {
+            display: inline-block;
+            position: relative;
+            z-index: 2;
+            color: #ffffff; /* Set default link text color to white */
+            background-color: rgba(255, 255, 255, 0);
+            padding: 18px 57px;
+            transition: 2s;
+            border-radius: 30px; /* Added border radius to links */
+        }
+
+        #wrapper li a span {
+            position: relative;
+            z-index: 3;
+        }
+
+        #wrapper li img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 280px; /* Adjust the width as needed */
+            height: auto; /* Maintain the aspect ratio */
+            object-fit: contain;
+            z-index: 1;
+        }
+
+        #wrapper .spacer {
+            display: block;
+            padding: 1.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="header">
+            <img class="modelev-logo" src="assets/avatar.jpg" alt="Modelev Logo">
+            <br>
+            Mason Hoey
+        </div>
+
+        <ul>
+            <li>
+                <a id="instagram" href="https://www.instagram.com/masonh13_/">
+                    <img src="assets/Instagram_Banner.png" id="ig" alt="Instagram Banner">
+                    <span id="ig_cock">@masonh13_</span>
+                </a>
+            </li>
+            <li>
+                <a id="threads" href="https://www.threads.net/masonh13_/">
+                    <img src="assets/Threads_Banner.png" id="threads" alt="Threads Banner">
+                    <span id="threads_cock">@masonh13_</span>
+                </a>
+            </li>
+            <li>
+                <a id="snapchat" href="https://t.snapchat.com/9pBxrGpU">
+                    <img src="assets/Snapchat_Banner.png" id="sc" alt="Snapchat Banner">
+                    <span id="sc_cock">@Mason_Hoey</span>
+                </a>
+            </li>
+            <li>
+                <a id="twitter" href="https://www.twitter.com/masonh13_/">
+                    <img src="assets/Twitter_Banner.png" id="twt" alt="Twitter Banner">
+                    <span id="twt_cock">@masonh13_</span>
+                </a>
+            </li>
+			 <li>
+                <a id="discord" href="https://www.discordapp.com/users/480150344001912842/">
+                    <img src="assets/Discord_Banner.png" id="dickcord" alt="Discord Banner">
+                    <span id="dickcord_cock">@masonh13</span>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</body>
+</html>
